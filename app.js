@@ -8,7 +8,6 @@ fs.readFile('flower.txt', (err, data) => {
     let content = data.toString();
     let flowers = content.split('\n');
 
-    //"Downloading " + data.length + " bytes\r");
 
     process.stdout.write('1. Count the number of rows. \t Ans => ');
     let rows = flowers.length;
